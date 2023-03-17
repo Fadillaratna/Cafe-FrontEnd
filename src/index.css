@@ -1,0 +1,108 @@
+* {
+  font-family: 'Poppins', sans-serif;
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+#invoice-POS{
+  padding:2mm;
+  margin: 0 auto;
+  width: 70mm;
+  background: #FFF;
+  
+}
+ 
+#top, #mid,#bot{ /* Targets all id with 'col-' */
+  border-bottom: 1px solid #EEE;
+}
+
+.clientlogo{
+  float: left;
+	height: 60px;
+	width: 60px;
+	background: url(http://michaeltruong.ca/images/client.jpg) no-repeat;
+	background-size: 60px 60px;
+  border-radius: 50px;
+}
+
+.info{
+  display: block;
+  float:left;
+  margin-left: 0;
+}
+
+.brand-name{
+  text-align: center;
+  margin-bottom: -.100em;
+}
+
+.address{
+  font-size: .5em;
+}
+
+#mid .info p{
+  font-size: .5em;
+}
+
+.title{
+  float: right;
+}
+
+.title p{
+  text-align: right;
+}
+
+#table{
+  padding-top: 2mm;
+}
+
+#table-invoice{
+  width: 100%;
+  border-collapse: collapse;
+}
+
+#table-invoice td{
+  padding: 5px 0 5px 15px;
+  border: 1px solid #EEE
+}
+
+.tabletitle{
+  padding: 5px;
+  font-size: .5em;
+  background: #EEE;
+}
+.service{border-bottom: 1px solid #EEE;}
+.item{width: 24mm;}
+.itemtext{font-size: .5em;}
+
+#legalcopy{
+  margin-top: 5mm;
+}
+
+.legal{
+  font-size: .5em;
+  text-align: center;
+  padding-top: 5mm;
+  padding-bottom: 5mm;
+}
+
+#hidden-data{
+  visibility: hidden;
+}
+
+  
+  
+
+
